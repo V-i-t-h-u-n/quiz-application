@@ -26,7 +26,7 @@ const Result = (props) => {
       <div className="row m-5"></div>
       <div className="container p-5 bg-dark">
         {showScoreStatus && (
-          <h3 className="text-light p-2">Your score {score}</h3>
+          <h3 className="text-light p-2">Your Score {score}</h3>
         )}
         <div className="row row-cols-2">
           {props.finalArray?.map((item) => {
