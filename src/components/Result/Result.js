@@ -37,7 +37,7 @@ const Result = (props) => {
                     className="card text-white bg-success mb-3"
                     style={{ maxWidth: '30rem' }}
                   >
-                    <div className="card-header">Correct Answer</div>
+                    <div className="card-header">Correct Answer ✅</div>
                     <div className="card-body">
                       <h5 className="card-title">Selected Option</h5>
                       <p className="card-text">
@@ -52,7 +52,7 @@ const Result = (props) => {
                     className="card text-white bg-danger mb-3"
                     style={{ maxWidth: '30rem' }}
                   >
-                    <div className="card-header">Wrong Answer</div>
+                    <div className="card-header">Wrong Answer ❌</div>
                     <div className="card-body">
                       <h5 className="card-title">Selected Option</h5>
                       <p className="card-text">
