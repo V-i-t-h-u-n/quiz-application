@@ -53,6 +53,7 @@ const Result = (props) => {
                     style={{ maxWidth: '30rem' }}
                   >
                     <div className="card-header">Wrong Answer ❌</div>
+
                     <div className="card-body">
                       <h5 className="card-title">Selected Option</h5>
                       <p className="card-text">
